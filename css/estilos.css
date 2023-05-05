@@ -1,0 +1,27 @@
+.conteiner{
+    display: grid;
+  height: 600px;
+  width: 800px;
+  background-color: black;
+    }
+
+.contenido{
+   grid-column: 1/6;
+   grid-row-start: 1;
+   grid-row-end: 2;
+
+}
+
+.header{
+    grid-column: 6/12;
+    grid-row-start: 1;
+   grid-row-end: 2;
+
+}
+
+.footer{
+    grid-column: 1/12;
+    grid-row-start: 2;
+   grid-row-end: 3;
+
+}
