@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Source+Serif+Pro:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fc5d2fd5e0.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <br>
+        <a href="home.html">Home</a>
+        <a href="remeras.html">Remeras</a>
+        <a href="buzos.html">Buzos</a>
+        <a href="">Suscribite</a>
+        <h1 id="tiutlo">Suscribite a nuestro newsletter</h1>
+    </header>
+    <main>
+        
+        <h3>Suscribite a nuestro newsletter y recibi todas las novedades de nuestros productos</h3>
+        
+        <form method="get" name="formulario" id="suscripcion" class="">
+            <div id="contenedor-form">
+                <fieldset>
+                    <label>
+                        Nombre:
+                        <input type="text" name="nombre">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Telefono:
+                        <input type="number" name="telefono">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Email:
+                        <input type="email" name="email">
+                    </label>
+                </fieldset>
+                <button name="submit" >
+                    Suscribirme
+                </button>
+            </div>
+        </form>
+        <div id="mensaje-exito" class="oculto">
+            <h4 class="mensaje-gracias">Gracias por suscribirte, pronto le llegaran novedades y descuentos!</h4>
+            <h4 id="nombre-mensaje"></h4>
+            <h4 id="telefono-mensaje"></h4>
+            <h4 id="email-mensaje"></h4>                
+            <a class="volver-inicio" href="home.html">Volver al Inicio</a>
+        </div>
+        
+    </main>
+    <footer>
+        <h3 class="text-footer"> Seguinos</h3>
+        <div class="redes">
+        
+            <a href="">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    
+            <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        
+    
+        <a href="">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </div>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
