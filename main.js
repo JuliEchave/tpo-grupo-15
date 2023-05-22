@@ -4,7 +4,7 @@ function mandarEmail(nombre, email){
     Email.send({
         SecureToken : "a4bfd91d-0c12-4ba1-ba96-1fe9d648d39d",
         To : email,
-        From : "mrrh96@gmail.com",
+        From : "fjtortolini@gmail.com",
         Subject : "Bienvenido!",
         Body : `Hola ${nombre}, gracias por suscribirte a nuestro newsletter!`
     }).then(
