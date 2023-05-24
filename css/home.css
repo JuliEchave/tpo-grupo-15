@@ -35,16 +35,24 @@ main {
   margin-top: 20px
 }
 
-p {
-  font-family: "Source Serif Pro", serif;
+p{
+  font-family: 'Source Serif Pro', serif;
   font-weight: 400;
+  color: rgb(188, 195, 234);
+  text-align: center;
+
 }
 
 footer {
   height: 15%;
   margin-top: 5px;
 }
-
+h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Source Serif Pro", serif;
+}
 h3 {
   width: 100%;
   text-align: center;
@@ -108,3 +116,5 @@ h4 {
   95%{margin-left: -100%;}
 
 }
+
+

@@ -21,9 +21,9 @@ function mostraValores(nombre,telefono,email){
 }
 
 function tomarValoresFormulario(event){
-    const nombre = form.nombre.value
-    const telefono = form.telefono.value
-    const email = form.email.value
+    let nombre = form.nombre.value
+    let telefono = form.telefono.value
+    let email = form.email.value
     console.log(nombre)
     console.log(telefono)
     console.log(email)

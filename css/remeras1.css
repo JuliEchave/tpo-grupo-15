@@ -124,3 +124,38 @@ justify-content: center;
 .iconos:hover{
   transform: scale(1.2);
 }
+
+@media only screen and (max-width: 576px){
+ .remeras{
+  display: flex;
+    height: auto;
+    width: 80%;
+    margin: 5px;
+    padding: none;
+    margin: none;
+ }
+
+.remeras .img{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+
+}
+}
+@media only screen and (min-width: 577px) and (max-width: 1000px){
+  .remeras{
+    display: flex;
+      height: auto;
+      width: 45%;
+      margin: 5px;
+      padding: none;
+      margin: none;
+   }
+  
+  .remeras .img{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  
+  }
+}
